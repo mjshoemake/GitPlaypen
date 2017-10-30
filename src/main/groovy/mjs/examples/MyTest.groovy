@@ -9,5 +9,6 @@ class MyTest {
     static void main(String[] args) {
         def test = new MyTest()
         println multiply(5, 3)
+        println "Doing more stuff...."
     }
 }
