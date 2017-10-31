@@ -2,13 +2,19 @@ package mjs.examples;
 
 class MyTest {
 
-    def multiply(int num1, num2) {
-        return num1 * num2
+    void logStuff() {
+        println "Log msg #1."
+        println "Log msg #2."
+        println "Log msg #3."
+        println "Log msg #4."
+        println "Log msg #5."
+        println "Log msg #6."
+        println "Log msg #7."
     }
 
     static void main(String[] args) {
-        def test = new MyTest()
-        println multiply(5, 3)
-        println "Doing more stuff...."
+        MyTest test = new MyTest()
+        logStuff()
+        println "Done logging."
     }
 }
