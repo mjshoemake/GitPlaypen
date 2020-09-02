@@ -14,7 +14,7 @@ class MyTest {
 
     static void main(String[] args) {
         MyTest test = new MyTest()
-        logStuff()
+        test.logStuff()
         println "Done logging."
     }
 }
